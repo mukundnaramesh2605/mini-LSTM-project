@@ -14,7 +14,7 @@ On an EC2 CPU-utilization stream with two known failure episodes:
 
 At k = 5 every alert is a real event (zero false alarms) and no failure is missed. Recall is capped at ~0.35 by NAB's wide labeling, not by the model: raising the threshold does not lower it, which it would if recall were threshold-limited.
 
-![detected anomalies](results.png)
+![detected anomalies](result.png)
 
 ## The problem
 
